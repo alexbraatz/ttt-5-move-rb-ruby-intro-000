@@ -12,4 +12,4 @@ index = input_to_index
 
 move(board, index, char)
 
-display_board(board)
+puts display_board(board)
