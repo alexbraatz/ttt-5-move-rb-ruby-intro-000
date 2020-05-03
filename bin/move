@@ -10,4 +10,4 @@ puts "Enter 1 - 9 to select a space: "
 input = gets.strip
 index = input_to_index
 
-move(baord, index)
+move(board, index)
