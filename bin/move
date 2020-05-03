@@ -8,7 +8,7 @@ board = [" "," "," "," "," "," "," "," "," ",]
 puts "Where would you like to go?"
 puts "Enter 1 - 9 to select a space: "
 input = gets.strip
-index = input_to_index
+index = input_to_index(input)
 
 move(board, index, char)
 
